@@ -2,19 +2,19 @@ body{
 	background-color: #306ef4;
 	color: #ffffff;
 }
-
 header{
 	font-size: 70px;
 	text-align: center;
 	font-family: Abel;
 	font-variant: small-caps;
 	padding: 100px 0 50px;
+	position: relative;
 }
-
 h2{
 	background-color: #ffffff;
 	font-family: Abel;
 	color: #000000;
 	padding: 30px 0 30px;
 	text-align: center;
+	position: relative;
 }
