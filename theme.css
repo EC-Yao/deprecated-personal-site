@@ -15,9 +15,16 @@ header{
 h2{
 	font-family: Abel;
 	font-weight: bold;
-	font-size: 70px;
+	font-size: 50px;
 	color: #000000;
-	padding: 150px 0 150px;
+	padding: 100px 0 10px;
 	text-align: center;
 	position: relative;
+	font-variant: small-caps;
+}
+hr {
+    border-color: #306ef4;
+    border-width: 3px;
+    max-width: 100px;
+	padding: 10px 0 10px
 }
