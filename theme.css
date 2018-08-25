@@ -9,13 +9,14 @@ header{
 	text-align: center;
 	font-family: Abel;
 	font-variant: small-caps;
-	padding: 100px 0 50px;
+	padding: 100px 0 80px;
 	position: relative;
 }
 h2{
 	font-family: Abel;
+	font-weight: bold;
 	color: #000000;
-	padding: 30px 0 30px;
+	padding: 150px 0 150px;
 	text-align: center;
 	position: relative;
 }
