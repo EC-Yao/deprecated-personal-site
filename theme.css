@@ -1,23 +1,23 @@
-body{
+body {
 	background-color: #ffffff;
 	color: #000000;
 }
-header{
+header {
 	background-color: #306ef4;
 	color: #ffffff;
 	font-size: 120px;
 	text-align: center;
 	font-family: Abel;
 	font-variant: small-caps;
-	padding: 100px 0 80px;
+	padding: 100px 0 100px;
 	position: relative;
 }
-h2{
+h2 {
 	font-family: Abel;
 	font-weight: bold;
 	font-size: 50px;
 	color: #000000;
-	padding: 100px 0 10px;
+	padding: 70px 0 10px;
 	text-align: center;
 	position: relative;
 	font-variant: small-caps;
@@ -27,4 +27,12 @@ hr {
     border-width: 3px;
     max-width: 100px;
 	padding: 10px 0 10px
+}
+p {
+	font-family: Abel;
+	font-size: 30px;
+	color: #000000;
+	text-align: center;
+	position: relative;
+	font-variant: small-caps;
 }
