@@ -12,7 +12,11 @@
 
 		<style>
 		.landing-text{
-			background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("images/bg-network.jpg");
+			background-image: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url("images/bg-network.jpg");
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
 		}
 		</style>
 		
@@ -23,7 +27,14 @@
 	</head>
 	
 	<body>
-		<section id="title">
+		<nav id="nav-bar">
+			<ul>
+				<li><a class="active" href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+			</ul>
+		</nav>
+		
+		<section id="home">
 			<header>Eddy Yao</header>
 		</section>
 		
@@ -33,7 +44,7 @@
 					<h2> Welcome </h2>
 					<hr>
 					<p> I'm a <b>computer science</b> student with a <i>passion</i> for developing. </p>
-					<a href="#about" class="btn btn-primary btn-xl page-scroll" style="width: 4%;"> OK </a>
+					<a href="#about" class="btn btn-primary btn-xl page-scroll"> OK </a>
 				</div>
 			</div>
 		</section>
