@@ -5,9 +5,9 @@ body {
 }
 
 ul {
-	font-size: 16px;
+	font-size: 24px;
 	font-variant: small-caps;
-	color: #84c1ff;
+	font-style: bold;
     list-style-type: none;
     margin: 0;
     padding-right: 80px;
@@ -21,12 +21,16 @@ li {
 
 li a {
     display: block;
+	color: #2c6acc;
     text-align: center;
     padding: 70px 40px 40px;
+	transition: color .2s ease-in;
+	text-decoration: none;
 }
 
 li a:hover {
-    color: #5ea7f2;
+    color: #132d56;
+	text-decoration: none;
 }
 
 header {
