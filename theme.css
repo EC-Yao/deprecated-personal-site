@@ -5,12 +5,14 @@ body {
 }
 
 ul {
-	font-size: 40px;
+	font-size: 16px;
+	font-variant: small-caps;
+	color: #84c1ff;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding-right: 80px;
     overflow: hidden;
-    background-color: #333;
+    background-color: #ffffff;
 }
 
 li {
@@ -19,14 +21,12 @@ li {
 
 li a {
     display: block;
-    color: white;
     text-align: center;
-    padding: 40px 40px;
-    text-decoration: none;
+    padding: 70px 40px 40px;
 }
 
 li a:hover {
-    background-color: #111;
+    color: #5ea7f2;
 }
 
 header {
