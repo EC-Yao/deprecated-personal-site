@@ -33,7 +33,7 @@ ul {
 
 ul a {
 	float: left;
-	padding: 40px 40px 0;
+	padding: 0 40px 0;
 	color: #2c6acc;
 	font-size: 35px;
 	text-decoration: none;
@@ -63,15 +63,11 @@ li a:hover {
 
 ul.large {
 	height: 120px;
-	ul a {
-		font-size
-	}
 }
 ul.large img {
 	margin-top: 0;
 }
 ul.large li {
-	padding-top: 40px;
 }
 
 ul.small {
@@ -80,12 +76,12 @@ ul.small {
 ul.small img {
 }
 ul.small li {
-	padding-top: 7px;
 }
 
 ul,
 a,
-li {
+li,
+li a {
 	transition: .7s all;
 	-moz-transition: .7s all;
 	-webkit-transition: .7s all;

@@ -1,13 +1,24 @@
 $(document).on("scroll", function() {
-
 	if($(document).scrollTop()>100) {
-		$("ul").removeClass("large").addClass("small");
-		document.getElementById("top-name").style.paddingTop = "7px";
-		document.getElementById("top-name").style.fontSize = "20px";
+		changeSmall();
 	} else {
-		$("ul").removeClass("small").addClass("large");
-		document.getElementById("top-name").style.paddingTop = "40px";
-		document.getElementById("top-name").style.fontSize = "35px";
+		changeLarge();
 	}
-	
 });
+
+function changeSmall(){
+	var x = document.getElementsByClassName("page-scroll");
+	var i;
+	$("ul").removeClass("large").addClass("small");
+	for (i = 0; i < x.length; i++){
+		x[i].style.paddingTop = "15px";
+		x[i].style.fontSize = "20px";
+	}
+}
+
+function changeLarge(){
+	var x = document.getElementsByClassName("page-scroll");
+	var i;
+	$("ul").removeClass("small").addClass("large");
+	}
+}
