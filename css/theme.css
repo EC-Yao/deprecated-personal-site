@@ -10,6 +10,18 @@ body {
 	opacity: 1;
 }
 
+.parallax {
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-1 {
+	background-image: url("images/bg-1.jpg");
+	min-height: 100%;
+}
+
 ul {
 	font-variant: small-caps;
 	font-style: bold;
@@ -84,32 +96,15 @@ li a {
 }
 
 h1 {
-	background-color: #306ef4;
-	color: #ffffff;
-	font-size: 120px;
-	text-align: center;
-	font-variant: small-caps;
-	padding: 180px 0 100px;
-	position: relative;
-	margin-top: 40px;
-}
-
-.landing-text{
-	background-image: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url("images/bg-network.jpg");
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-
-h2 {
 	font-weight: bold;
 	font-size: 50px;
-	color: #000000;
-	padding: 70px 0 10px;
+	padding: 300px 0 10px;
 	text-align: center;
 	position: relative;
 	font-variant: small-caps;
+	margin-top: 40px;
+	height: 100%;
+	background-color: none;
 }
 
 hr {
