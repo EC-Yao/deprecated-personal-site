@@ -1,5 +1,5 @@
 $(document).on("scroll", function() {
-	if($(document).scrollTop()>100) {
+	if($(document).scrollTop()>30) {
 		changeSmall();
 	} else {
 		changeLarge();
