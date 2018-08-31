@@ -25,12 +25,12 @@ body {
 
 .btn-x1 {
 	transition: all 0.3s ease-in;
-	background-color: #F05F40;
-    border-color: #F05F40;
+	background-color: #f7765b;
+    border-color: #f7765b;
 	font-variant: small-caps;
 }
 
-.btn-xl:hover {
+.btn-x1:hover {
 	background-color: #e84f2e;
 	border-color: #e84f2e;
 }
@@ -43,9 +43,9 @@ body {
 }
 
 .about-text {
-	padding: 50px 0 70px;
+	padding: 50px 0 50px;
 	background-color: #f2f2f2;
-	color: #2c6acc
+	color: #2c6acc;
 }
 
 .plug-links {
@@ -154,7 +154,6 @@ h2 {
 	text-align: center;
 	position: relative;
 	font-variant: small-caps;
-	margin-top: 40px;
 }
 
 hr {
@@ -167,7 +166,7 @@ p {
 	text-align: center;
 	position: relative;
 	font-variant: small-caps;
-	padding-bottom: 30px;
+	padding-bottom: 20px;
 }
 
 @-webkit-keyframes fadein {
