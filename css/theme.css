@@ -28,6 +28,8 @@ body {
 	background-color: #f7765b;
     border-color: #f7765b;
 	font-variant: small-caps;
+	border-radius: 30px;
+	padding: 15px 40px;
 }
 
 .btn-x1:hover {
@@ -40,6 +42,8 @@ body {
 	background-color: #2c6acc;
     border-color: #2c6acc;
 	font-variant: small-caps;
+	border-radius: 30px;
+	padding: 10px 30px;
 }
 
 .about-text {
