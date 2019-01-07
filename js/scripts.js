@@ -26,6 +26,8 @@ function changeLarge(){
 	}
 }
 
-$(window).on("hashchange", function () {
-    setTimeout(function() {window.scrollTo(window.scrollX, window.scrollY - 100);}, 10);
-});
+function addMargin() {
+    window.scrollTo(0, window.pageYOffset);
+}
+
+window.on('hashchange', addMargin);
