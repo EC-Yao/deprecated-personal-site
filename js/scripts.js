@@ -30,4 +30,4 @@ function addMargin() {
     window.scrollTo(0, window.pageYOffset);
 }
 
-window.on('hashchange', addMargin);
+$(window).on('hashchange', addMargin);
