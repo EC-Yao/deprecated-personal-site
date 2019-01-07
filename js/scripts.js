@@ -25,3 +25,7 @@ function changeLarge(){
 		x[i].style.fontSize = "35px";
 	}
 }
+
+$(window).on("hashchange", function () {
+    window.scrollTo(window.scrollX, window.scrollY - 100);
+});
