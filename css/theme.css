@@ -211,6 +211,11 @@ p {
 	padding-bottom: 20px;
 }
 
+img {
+	padding-left: 100px;
+	padding-top: 100px
+}
+
 @-webkit-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
