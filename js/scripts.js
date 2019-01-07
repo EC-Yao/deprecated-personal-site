@@ -27,7 +27,7 @@ function changeLarge(){
 }
 
 function addMargin() {
-    window.scrollTo(0, window.pageYOffset);
+    window.scrollTo(0, window.pageYOffset-200);
 }
 
-window.addEventListener('hashchange', addMargin);
+window.addEventListener('hashchange', addMargin);	
