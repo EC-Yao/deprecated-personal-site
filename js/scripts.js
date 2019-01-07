@@ -25,9 +25,3 @@ function changeLarge(){
 		x[i].style.fontSize = "35px";
 	}
 }
-
-function addMargin() {
-    window.scrollTo(0, window.pageYOffset-200);
-}
-
-window.addEventListener('hashchange', addMargin);	
